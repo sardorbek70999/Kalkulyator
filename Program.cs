@@ -7,13 +7,17 @@ namespace KalkulyatorDasturi
         static void Main(string[] args)
         {
             Console.WriteLine("Kalkulyator Dasturiga Xush Kelibsiz!");
+           
+
+            Console.WriteLine("Birinchi sonni kiriting:");
+            double birinchiSon = double.Parse(Console.ReadLine());
+
+
             Console.WriteLine("Amalni kiriting (qo'shimcha amallar: +, -, *, /):");
 
             // Foydalanuvchidan amalni olish
             char amal = char.Parse(Console.ReadLine());
 
-            Console.WriteLine("Birinchi sonni kiriting:");
-            double birinchiSon = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Ikkinchi sonni kiriting:");
             double ikkinchiSon = double.Parse(Console.ReadLine());
